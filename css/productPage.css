@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Usually-font";
+
+    src: local("Usually-font"),
+        url(/fonts/Usually-font.otf)
+}
+
+* {
+    list-style-type: none;
+    font-family: 'Montserrat';
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+.product_page_container {}
+
+.product_page_background {
+
+}
+
+
+.background_img_3 {
+    width: 20%;
+        position: absolute;
+        left: 86%;
+        top: 40%;
+
+}
+.img3 {
+width:70%;
+}
+
+.background_img_4 {
+
+}
+

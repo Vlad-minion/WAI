@@ -1,0 +1,121 @@
+@font-face {
+    font-family: "Usually-font";
+  
+    src: local("Usually-font"),
+    url(/fonts/Usually-font.otf)
+}
+* {
+    list-style-type: none;
+    font-family: 'Montserrat';
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.nav_nav { 
+    width: 100%;
+    position: absolute;
+    z-index: 11;
+    color: aliceblue;
+}
+
+.nav_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top:25px;
+    }
+
+    li{ 
+        margin-right: 140px;
+    }
+
+    .main_nav_logo {
+            position: relative;
+                top: 44px;
+                left: 141px;
+                font-size: 25px;
+                color: aliceblue;
+                font-family: "Usually-font"
+    }
+
+.main_background {
+    height: 100vh;
+    background: linear-gradient(292.84deg, #9D5CFF 20.81%, #D0B0FF 65.62%);
+}
+
+.background_highlits {}
+
+.img1 {
+    width: 88%;
+}
+.img2 {
+    width: 88%;
+}
+.background_img_1 {
+        position: absolute;
+            z-index: 12;
+            width: 50%;
+            top: 0%;
+}
+
+.background_img_2{
+position: absolute;
+top: 7%;
+left: 65%;
+width: 42%;
+}
+.logo_container {
+    display: flex;
+    justify-content: center;
+    z-index: 89;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 1000px;
+}
+
+.logo_container h1:nth-child(1) {
+    width: 4em;
+}
+.logo_container div:nth-child(2) {
+    width: 4em;
+    flex: 1;
+}
+.logo_container h2:nth-child(3) {
+    width: 16em;
+}
+
+.main_logo {
+    text-align: center;
+    font-family: "Usually-font";
+    font-size: 4em;
+    color: aliceblue;
+}
+
+.main_logo_2 {
+    font-family: "Usually-font";
+        font-size: 2em;
+        color: aliceblue;
+        word-wrap: break-word;
+max-width: 734px;
+letter-spacing:0.45em;
+align-self: center;
+}
+
+
+
+.logo_line {
+width: 90px;
+    height: 3px;
+        border-radius: 5px;
+        align-self: center;
+        background-color: #fff;
+}
