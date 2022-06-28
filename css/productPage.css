@@ -5,6 +5,8 @@
         url(/fonts/Usually-font.otf)
 }
 
+
+
 * {
     list-style-type: none;
     font-family: 'Montserrat';
@@ -23,27 +25,135 @@ body {
 
 
 
-
-
-.product_page_container {}
-
-.product_page_background {
+.product_page {
+    position: relative;
+  height: 100vh;
+  overflow: hidden;
+background: linear-gradient(292.84deg, #9D5CFF 20.81%, #D0B0FF 65.62%);
 
 }
 
+.product_page_container {
+    width: 100%;
+}
+.product_page_scrollback {
+    width: 100%;
+        bottom: 640px;
+        position: absolute;
+        z-index: 1;
+        height: 100vh;
+}
+
+.product_page_background {
+position: absolute;
+    width: 1402px;
+    height: 811px;
+    left: 131px;
+    top: 142px;
+
+   
+    mix-blend-mode: overlay;
+    border-radius: 26px;
+
+}
+
+.lens {
+position: absolute;
+    width: 1302px;
+    height: 550px;
+    left: 120px;
+    top: 90px;
+
+    background: rgba(255, 255, 255, 0.21);
+    backdrop-filter: blur(11px);
+
+    
+    border-radius: 26px;
+    z-index: 3;
+}
 
 .background_img_3 {
     width: 20%;
         position: absolute;
-        left: 86%;
-        top: 40%;
-
+        left: 88%;
+        top: 60%;
+z-index: 2;
 }
 .img3 {
-width:70%;
+width: 60%;
+   
 }
+
 
 .background_img_4 {
+width: 56%;
+    bottom: 260px;
+    position: relative;
+    z-index: 2;
+}
+
+.img4 {
+    width:45%;
+}
+
+.lens_description {
+    width: 100%;
+    height: 100%;
 
 }
 
+.description_lens_flex {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content:space-evenly;
+    width:100%;
+    height: 85%;
+    font-size: 2em;
+    font-family: 'Montserrat';
+    margin-left: 50px;
+}
+
+h4 {
+    font-family: "Usually-font";
+    font-size: 5em;
+        position: absolute;
+  
+    color: #FFEC3A;
+    letter-spacing: 0.095em;
+   bottom: 69%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight: 500;
+}
+
+li {
+    color: rgb(255, 255, 255);
+}
+
+span {
+    color: #FFEC3A;
+}
+
+.product_page_object1 {
+        width: 15%;
+            position: relative;
+            left: 53%;
+            top: 35px;
+}
+
+.page_object1 {
+    width: 50%;
+}
+
+.product_page_object2 {
+    width: 12%;
+        position: relative;
+        left: 89%;
+        top: 220px;
+
+}
+
+.page_object2 {
+    width: 60%;
+}
