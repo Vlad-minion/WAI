@@ -2,7 +2,7 @@
     font-family: "Usually-font";
 
     src: local("Usually-font"),
-        url(/fonts/Usually-font.otf)
+        url(fonts/Usually-font.otf)
 }
 
 * {
