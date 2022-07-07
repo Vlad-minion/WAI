@@ -77,54 +77,57 @@ main {
 
 .background_img_2{
 position: absolute;
-top: 7%;
-left: 65%;
-width: 42%;
+    top: 25%;
+    left: 71%;
+    width: 33%
 }
 .logo_container {
-    display: flex;
-    justify-content: center;
-    z-index: 89;
-    display: flex;
-    justify-content: space-evenly;
-    position: relative;
-    bottom: 1000px;
+    width: 1550px;
+        height: 300px;
+        position: absolute;
+        z-index: 100;
+        top: 270px;
+        text-align: center;
+   
 }
 
-.logo_container h1:nth-child(1) {
-    width: 4em;
-}
-.logo_container div:nth-child(2) {
-    width: 4em;
-    flex: 1;
-}
-.logo_container h2:nth-child(3) {
-    width: 16em;
-}
+
+
 
 .main_logo {
     text-align: center;
-    font-family: "Usually-font";
-    font-size: 4em;
-    color: aliceblue;
+        font-family: "Usually-font";
+        font-size: 7em;
+        color: aliceblue;
+        font-weight: 300;
+        width: 300px;
+        margin: 0;
 }
 
 .main_logo_2 {
     font-family: "Usually-font";
-        font-size: 2em;
+        font-size: 3em;
         color: aliceblue;
         word-wrap: break-word;
-max-width: 734px;
-letter-spacing:0.45em;
-align-self: center;
+        max-width: 734px;
+        letter-spacing: 0.43em;
+        align-self: center;
+        margin: 0px;
+        position: absolute;
+        right: left;
+        left: 46%;
+        top: 6%;
 }
 
 
 
 .logo_line {
-width: 90px;
-    height: 3px;
+    width: 90px;
+        height: 3px;
         border-radius: 5px;
-        align-self: center;
+      
+        left: 30%;
         background-color: #fff;
+        position: absolute;
+        top: 17%;
 }
