@@ -1,15 +1,16 @@
-@media screen and (min-width:360px) and (min-height:644px)   {
 @font-face {
-        font-family: "Usually-font";
+    font-family: "Usually-font";
 
-        src: local("Usually-font"),
-            url(../fonts/Usually-font.otf)
-    }
+    src: local("Usually-font"),
+        url(../fonts/Usually-font.otf)
+}
 
-    header {
-        width: 0;
-        height: 0;
-    }
+@media screen and (min-width:360px) and (min-height:644px)   {
+
+header {
+    height: 0;
+    width: 0;
+}
 
 .menu-btn {
     display: block;
