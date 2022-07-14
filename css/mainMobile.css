@@ -1,0 +1,165 @@
+@media screen and (min-width:390px) and (min-height:844px)   {
+@font-face {
+        font-family: "Usually-font";
+
+        src: local("Usually-font"),
+            url(../fonts/Usually-font.otf)
+    }
+
+    header {
+        width: 0;
+        height: 0;
+    }
+
+.menu-btn {
+    display: block;
+        width: 50px;
+        height: 50px;
+        position: relative;
+        left: 300px;
+        top: 10px;
+    }
+
+
+
+.menu-btn span,
+.menu-btn span::before,
+.menu-btn span::after {
+        position: absolute;
+        top: 50%;
+        width: 20px;
+        height: 2px;
+        left: 50%;
+        margin-top: -1px;
+        margin-left: -10px;
+        background-color: #FFFFFF;;
+    }
+    
+    .menu-btn span::before,
+    .menu-btn span::after{
+        content: '';
+        display: block;
+        transition: 0,5s;
+
+    }
+    
+.menu-btn span::before {
+    transform: translateY(-5px);
+    width: 8px;
+}
+
+.menu-btn span::after {
+    transform: translateY(5px);
+}
+
+.menu-btn_active span:before{
+    transform: rotate(35deg);
+    width: 10px;
+    transform-origin: right bottom;
+}
+.menu-btn_active span:after {
+    transform: rotate(-35deg);
+        width: 10px;
+        
+}
+.nav_buttons {
+    display: none;
+}
+.main_nav_logo {
+    font-size: 1.3em;
+        position: relative;
+        color: #ffff;
+        top: 42px;
+        left: 35px;
+        font-family: "Usually-font";
+}
+
+    main {
+        width: 390px;
+        height: 844px;
+    }
+
+    .main_background {
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(292.84deg, #9D5CFF 20.81%, #D0B0FF 65.62%);
+    }
+.background_highlits {
+
+    width: 100%;
+}
+
+.img1 {
+    width: 100%;
+}
+
+.img2 {
+    width: 100%;
+}
+
+.background_img_1 {
+    position: absolute;
+        z-index: 12;
+        width: 170%;
+        top: 24%;
+        transform: rotate(2deg);
+        right: 33%;
+    
+    
+}
+
+.background_img_2 {
+position: absolute;
+    top: 7%;
+    left: 59%;
+    width: 100%;
+    transform: rotate(192deg);
+    
+}
+
+.logo_container {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    z-index: 100;
+    top: 250px;
+    text-align: center;
+
+}
+
+
+
+
+.main_logo {
+    text-align: center;
+    font-family: "Usually-font";
+    font-size: 7em;
+    color: aliceblue;
+    font-weight: 300;
+    width: 390px;
+    margin: 0;
+}
+
+.main_logo_2 {
+    font-family: "Usually-font";
+        font-size: 1.6em;
+        color: aliceblue;
+        word-wrap: break-word;
+        max-width: 390px;
+        letter-spacing: 0.33em;
+        align-self: center;
+        margin: 0px;
+        position: absolute;
+        height: 200xp;
+        top: 6%;
+        text-align: center;
+        top: 40%;
+        line-height: 2em;
+}
+
+
+.logo_line {
+  display: none;
+}
+
+}

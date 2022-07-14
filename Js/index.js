@@ -4,3 +4,11 @@ $('.slider').slick({
     adaptiveHeight: true
 })
 })
+
+
+$(document).ready(function (){
+$('.menu_btn'),on('click', function(e) {
+    e.preventDefault;
+    $(this).toggleClass('menu-btn_active');
+})
+})

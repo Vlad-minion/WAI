@@ -24,6 +24,8 @@ body {
 
 
 
+@media screen and (min-width: 1000px) {
+    
 
 .product_page {
     position: relative;
@@ -156,4 +158,5 @@ span {
 
 .page_object2 {
     width: 60%;
+}
 }
