@@ -1,5 +1,5 @@
 @import url(./productPage.css);
-@media screen and (min-width: 340px){
+@media screen and (max-width: 840px){
     .product_page {
             position: relative;
                 height: 940px;

@@ -7,7 +7,7 @@
         url(../fonts/Usually-font.otf)
 }
 
-@media screen and (min-width:340px) {
+@media screen and (max-width:840px) {
 
 .problem_page {
     height: 100%;
