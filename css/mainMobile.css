@@ -7,6 +7,10 @@
 
 @media screen and (min-width:340px)   {
 
+main {
+    overflow-x: hidden;
+}
+
 header {
     height: 0;
     width: 0;

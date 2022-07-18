@@ -5,6 +5,8 @@
         url(fonts/Usually-font.otf)
 }
 
+@media screen  and (min-width: 340){
+    
 
 
 * {
@@ -131,3 +133,4 @@ width: 60%;
     .slick-dots li {}
     .slick-dots button {}
 
+}
