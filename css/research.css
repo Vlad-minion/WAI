@@ -49,6 +49,7 @@ h5 {
       height: 500px;
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: space-evenly;
        top: 300px;
        z-index: 3;

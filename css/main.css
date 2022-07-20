@@ -12,14 +12,15 @@
     text-decoration: none;
 }
 
-html,
-body {
-    padding: 0;
-    margin: 0;
-    overflow-x: hidden;
-}
+
 @media screen and (min-width:1000px) {
-    
+   
+    html,
+        body {
+            padding: 0;
+            margin: 0;
+            overflow-x: hidden;
+        }
 
 .nav_nav { 
     width: 100%;
@@ -47,6 +48,10 @@ body {
                 color: aliceblue;
                 font-family: "Usually-font"
     }
+
+.menu_block {
+    display: none;
+}
 
 main {
     width: 100%;

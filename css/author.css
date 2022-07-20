@@ -24,7 +24,7 @@ body {
 
 .author_page {
     height: 100vh;
-    width: 100wh;
+    width: 100vw;
     background: linear-gradient(268.09deg, #C09EEE 51.78%, #B890F1 93.11%);
     overflow-y: hidden;
     overflow-x: hidden;

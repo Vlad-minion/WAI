@@ -1,0 +1,32 @@
+@import url(./research.css);
+
+@font-face {
+    font-family: "Usually-font";
+
+    src: local("Usually-font"),
+        url(../fonts/Usually-font.otf)
+}
+
+@media screen and (max-width:840px) {
+.research_page {
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(268.09deg, #C09EEE 51.78%, #B890F1 93.11%);
+        overflow-y: hidden;
+    }
+
+    h5 {
+        font-size: 1.5em;
+        letter-spacing:15px;
+    }
+
+        .graph_flex_item {
+            width: 71%;
+            height: 40%;
+            margin-top: 70px;
+        }
+
+        .graph_flex_contaier {
+            top: 180px;
+        }
+}
