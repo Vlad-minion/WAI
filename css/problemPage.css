@@ -117,6 +117,9 @@ width: 60%;
     height: 50px;
     
    }
+   .mobile_wrapper_container{
+    display: none;
+   }
     .slider .slick-arrow.slick-prev {
         left: -100px;
         background: url('../img/slider/Vector.png') 0 0 no-repeat;
