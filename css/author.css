@@ -15,6 +15,7 @@
     text-decoration: none;
 }
 
+@media screen and (min-width:1000px) {
 html,
 body {
     padding: 0;
@@ -51,7 +52,28 @@ h6 {
     height: 100%;
 }
 
-.wrapper2 {
+.wrapper5 {
         top: 100px;
         position: relative;
+}
+.wrapper6 {
+       display: none;
+}
+
+
+.author_background {
+
+    display: none;
+}
+
+
+
+.author_background_item {
+    display: none;
+}
+
+.author_background_footer {
+    display: none;
+}
+
 }

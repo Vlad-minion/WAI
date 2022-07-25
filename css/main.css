@@ -78,15 +78,18 @@ main {
 .background_img_1 {
         position: absolute;
             z-index: 12;
-            width: 50%;
-            top: 0%;
+            width: 62%;
+            top: -13%;
+            transform: rotate(290deg);
+            left: -22%;
 }
 
 .background_img_2{
 position: absolute;
-    top: 25%;
-    left: 71%;
-    width: 33%
+    top: 38%;
+    left: 80%;
+    width: 37%;
+    transform: rotate(330deg);
 }
 .logo_container {
     width: 1550px;

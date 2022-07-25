@@ -8,25 +8,228 @@
 }
 
 @media screen and (max-width:840px) {
+    
 .research_page {
-        height: 100vh;
+        height: 1170px;
         width: 100%;
         background: linear-gradient(268.09deg, #C09EEE 51.78%, #B890F1 93.11%);
         overflow-y: hidden;
     }
 
+    .research_page_container {
+        height: 100%;
+    }
+
+.research_page_background {
+  width: 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.ellips {
+    width: 5%;
+}
+
+
+
+
+.ellips.v1 {
+    position: relative;
+        width: 7%;
+        left: 25%;
+        top: 8.8%;
+}
+
+.ellips.v2 {
+    position: relative;
+        width: 20%;
+        top: 21%;
+        right: 0%;
+}
+
+.ellips.v3 {
+    position: absolute;
+        width: 16%;
+        top: 61.2%;
+        left: 3%;
+        z-index: 9;
+    
+}
+
+.ellips.v4 {
+    position: absolute;
+        width: 15%;
+        top: 35.5%;
+        right: 18%;
+        z-index: 9;
+}
+
+
+.ellips.v5 {
+    top: 66.7%;
+        position: absolute;
+        width: 7%;
+        left: 63%;
+        z-index: 1;
+}
+
+
+
+.ellips.v6 {
+
+    position: absolute;
+        width: 15%;
+        top: 53%;
+        left: 77%;
+    
+}
+
+
+
+
+.ellips.v7 {
+
+    position: absolute;
+        width: 16%;
+        left: 30%;
+        top: 29%;
+}
+
+.ellips.v8 {
+
+    position: absolute;
+        width: 39%;
+        top: 84%;
+        left: 67%;
+}
+
+.ellips.v9 {
+position: absolute;
+    width: 8%;
+    right: 20%;
+    top: 97.2%;
+    z-index: 9;
+}
+
+.blur {
+    width: 40%;
+    position: absolute;
+}
+
+.blur.v1 {
+    right: 0%;
+        top: 54%;
+        width: 85%;
+}
+
+.blur.v2 {
+    right: -26%;
+        top: 17%;
+        width: 80%;
+}
+
+.blur.v3 {
+top: 49%;
+    left: 10%;
+    width: 50%;
+    z-index: 2;
+
+}
+
+.blur.v4 {
+top: 19%;
+    width: 80%;
+    left: -10%;
+}
+
+.blur.v5 {
+top: 11%;
+    left: 10%;
+    width: 60%;
+
+}
+
+.blur.v6 {
+    left: 0%;
+        top: 2%;
+}
+
+.blur.v7 {
+right: 20%;
+    top: 76%;
+    width: 100%;
+}
+
     h5 {
         font-size: 1.5em;
-        letter-spacing:15px;
+            letter-spacing: 15px;
+            position: absolute;
+            top: 28%;
+            left: 6%;
+        
     }
 
         .graph_flex_item {
             width: 71%;
-            height: 40%;
+            height: 46%;
             margin-top: 70px;
+            border-radius: 2px #fff;
         }
 
-        .graph_flex_contaier {
-            top: 180px;
+        .graph_flex_container {
+            top: 29%;
+            position: absolute;
         }
+.graph_flex_container :nth-child(3){
+    margin-top: 180px;
+}
+
+.graph_img1 {
+position: relative;
+    bottom: 36%;
+    text-align: center;
+    width: 100%;
+    left: 0%;
+}
+
+.graph_description.v1 {
+bottom: 40%;
+    word-break: break-word;
+    letter-spacing: 0px;
+    width: 74%;
+    left: 15%;
+    font-size:1em;
+}
+
+.graph_img2 {
+    position: relative;
+        bottom: 45px;
+        text-align: center;
+}
+
+.graph_description.v2 {
+bottom: 24%;
+word-break: break-word;
+letter-spacing: 0px;
+width: 80%;
+left: 14%;
+font-size: 1em;
+}
+
+
+.graph_img3 {
+    bottom: 62%;
+}
+
+.graph_description.v3 {
+    bottom: 61%;
+    word-break: break-word;
+    letter-spacing: 0px;
+    width: 80%;
+    left: 14%;
+    font-size: 1em;
+}
+
+
+
 }

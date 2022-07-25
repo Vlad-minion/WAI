@@ -32,10 +32,13 @@
     
         .page_object1 {}
     
-        .product_page_object2 {position: relative;
-            left: 74%;
-            width: 22%;
-            top: 8%;
+        .product_page_object2 {
+           
+            position: relative;
+                left: 78%;
+                width: 22%;
+                top: 7%;
+            
         }
     
         .page_object2 {
@@ -45,9 +48,9 @@
 .background_img_3 {
         position: absolute;
             top: 77%;
-            width: 10%;
-            width: 40%;
-            left: 64%;
+          
+            width: 48%;
+            left: 67%;
             z-index: 13;
 }
 
@@ -76,7 +79,7 @@
                 background: rgba(255, 255, 255, 0.21);
                 backdrop-filter: blur(11px);
                 border-radius: 26px;
-                left: 5%;
+                left: 7%;
         }
     
         h3{
