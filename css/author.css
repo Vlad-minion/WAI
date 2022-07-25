@@ -40,7 +40,7 @@ h6 {
     text-align: center;
         font-size: 3em;
         color: #FFEC3A;
-        top: 50px;
+        top: 10%;
         position: relative;
         font-family: "Usually-font";
         letter-spacing: 20px;
@@ -53,7 +53,7 @@ h6 {
 }
 
 .wrapper5 {
-        top: 100px;
+        top: 65px;
         position: relative;
 }
 .wrapper6 {
@@ -63,17 +63,47 @@ h6 {
 
 .author_background {
 
-    display: none;
+    
 }
 
-
+.item {
+    width: 20%;
+}
 
 .author_background_item {
-    display: none;
+    
 }
 
 .author_background_footer {
-    display: none;
+    
 }
+
+.item {
+    width: 20%;
+    position: absolute;
+}
+
+.v1 {
+    width: 38%;
+}
+
+.v2 {}
+
+.v3 {}
+
+.v4 {}
+
+.v5 {}
+
+.v6 {}
+
+.v7 {}
+
+.v8 {}
+
+.v9 {}
+
+.v10 {}
+
 
 }

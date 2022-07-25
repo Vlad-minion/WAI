@@ -24,6 +24,7 @@
   width: 100%;
   position: relative;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .ellips {
@@ -50,8 +51,8 @@
 .ellips.v3 {
     position: absolute;
         width: 16%;
-        top: 61.2%;
-        left: 3%;
+        top: 59.2%;
+        left: 9%;
         z-index: 9;
     
 }
@@ -59,8 +60,8 @@
 .ellips.v4 {
     position: absolute;
         width: 15%;
-        top: 35.5%;
-        right: 18%;
+        top: 33.5%;
+        right: 13%;
         z-index: 9;
 }
 
@@ -96,18 +97,17 @@
 }
 
 .ellips.v8 {
-
-    position: absolute;
-        width: 39%;
-        top: 84%;
-        left: 67%;
+position: absolute;
+    width: 28%;
+    top: 84%;
+    left: 69%
 }
 
 .ellips.v9 {
 position: absolute;
     width: 8%;
     right: 20%;
-    top: 97.2%;
+    top: 94.2%;
     z-index: 9;
 }
 
@@ -164,7 +164,7 @@ right: 20%;
         font-size: 1.5em;
             letter-spacing: 15px;
             position: absolute;
-            top: 28%;
+            top: 55%;
             left: 6%;
         
     }
@@ -177,7 +177,7 @@ right: 20%;
         }
 
         .graph_flex_container {
-            top: 29%;
+            top: 57%;
             position: absolute;
         }
 .graph_flex_container :nth-child(3){

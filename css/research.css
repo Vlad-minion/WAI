@@ -93,24 +93,31 @@ h5 {
     color: white;
     position: relative;
     word-wrap: break-word;
-    left: 7px;
+    left: 15%;
     font-family: 'Montserrat';
     letter-spacing:3px;
+    width: 90%;
+   
    
 }
 
 .graph_description.v1 {
-bottom: 67px;
+
+    bottom: 27%;
+        left: 7%;
 
 
 }
 
 .graph_description.v2 {
+    bottom: 9%;
+        left: 7%;
 
 }
 
 .graph_description.v3 {
-bottom: 166px;
+    bottom: 53%;
+        left: 8%;
 }
 
 .research_page_background {
