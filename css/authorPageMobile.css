@@ -9,6 +9,11 @@
 
 @media screen and (max-width:840px) {
 
+html,body {
+    
+}
+
+
 .wrapper5 {
 display: none;
     
@@ -18,7 +23,7 @@ display: none;
     height: 100%;
     width: 100%;
     position: relative;
-    top: 35px;
+    top: -10%;
     z-index: 2;
 }
 
