@@ -19,6 +19,7 @@ display: none;
     width: 100%;
     position: relative;
     top: 35px;
+    z-index: 2;
 }
 
  
@@ -41,6 +42,7 @@ text-align: center;
     letter-spacing: 19px;
     margin: 0px;
     left: 1%;
+    z-index: 2;
 }
 .author_page_container {
     height: 100%;
@@ -59,7 +61,7 @@ text-align: center;
 
 .author_background_footer {
     width: 100%;
-   
+   position: absolute;
 }
 
 
@@ -71,27 +73,68 @@ z-index: 1;*/
 
 
 
-.item {}
+.item {
+    position: absolute;
+    width: 15%;
+    z-index: 2;
+}
 
-.v1 {}
+.vs1 {
+    width: 70% !important;
+    bottom: 8%;
+}
 
-.v2 {}
+.vs2 {
+    right: 18%;
+        top: 84.8%;
+}
 
-.v3 {}
+.vs3 {
+    top: 95.5%;
+        right: 15%;
+        width: 22%;
 
-.v4 {}
+}
 
-.v5 {}
+.vs4 {
+top: 91%;
+    left: 13%;
 
-.v6 {}
+}
 
-.v7 {}
+.vs5 {
+top: 94.9%;
+    right: 15%;
+    width: 10%;
+    z-index: 3;
+}
 
-.v8 {}
+.vs6 {
+    display: none;
+}
 
-.v9 {}
+.vs7 {
+    display: none;
+}
 
-.v10 {}
+.vs8 {
+    display: none;
+}
+
+.vs9 {
+    width: 100%;
+        left: 9%;
+        bottom: 10%
+}
+
+.vs10 {
+width: 100%;
+    top: 88%;
+    transform: rotate(221deg);
+    right: 44%;
+
+
+}
 
 
         .slick-slider {
@@ -122,6 +165,39 @@ z-index: 1;*/
                     width: 60%;
                     height: 100%;
                     
+                }
+
+                footer {
+                    width: 100%;
+                        background-color: black;
+                        height: 4%;
+                        margin: 0px;
+                        top: 97.9%;
+                        position: absolute
+                }
+
+
+                .footer_description {
+                    display: flex;
+                        flex-direction: row;
+                        justify-content: space-evenly;
+                        flex-wrap: wrap;
+                        position: relative;
+                        top: 30%;
+                        margin: 0;
+                        padding: 0;
+                        font-size: 1em;
+                        color: #D9D9D9CC;
+                }
+
+                .logo {
+                    position: absolute;
+                    font-family: 'Usually-font';
+                        position: absolute;
+                        color: #fff;
+                        font-size: 1.5em;
+                        bottom: 35px;
+
                 }
 
 }
