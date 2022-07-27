@@ -171,8 +171,8 @@ position: absolute;
         height: 300px;
         position: absolute;
         z-index: 100;
-        top: 250px;
-        left: -5%;
+        top: 5%;
+        left: 0%;
         text-align: center;
 
 }

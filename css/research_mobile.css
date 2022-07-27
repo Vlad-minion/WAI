@@ -164,7 +164,7 @@ right: 20%;
         font-size: 1.5em;
             letter-spacing: 15px;
             position: absolute;
-            top: 55%;
+            top: 57.5%;
             left: 6%;
         
     }
@@ -177,8 +177,9 @@ right: 20%;
         }
 
         .graph_flex_container {
-            top: 57%;
-            position: absolute;
+            top: 59.3%;
+                position: absolute;
+            
         }
 .graph_flex_container :nth-child(3){
     margin-top: 180px;
