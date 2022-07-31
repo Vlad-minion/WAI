@@ -21,17 +21,17 @@ display: none;
 
 .wrapper6 {
     height: 100%;
-    width: 100%;
-    position: relative;
-    top: -10%;
-    z-index: 2;
+        width: 100%;
+        position: relative;
+        z-index: 99999;
+        bottom: 96%;
 }
 
  
 
 .author_page {
-    height: 100vh;
-    width: 100vw;
+    height: 915px;
+    width: 100%;
     background: linear-gradient(268.09deg, #C09EEE 51.78%, #B890F1 93.11%);
     overflow-y: hidden;
     overflow-x: hidden;
@@ -44,7 +44,7 @@ text-align: center;
     top: 6%;
     position: relative;
     font-family: "Usually-font";
-    letter-spacing: 19px;
+    letter-spacing: 21px;
     margin: 0px;
     left: 1%;
     z-index: 2;
@@ -65,8 +65,10 @@ text-align: center;
 }
 
 .author_background_footer {
-    width: 100%;
-   position: absolute;
+   width: 100%;
+   position: relative;
+background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, #9D5CFF 79.85%);
+height: 100%;
 }
 
 
@@ -175,9 +177,9 @@ width: 100%;
                 footer {
                     width: 100%;
                         background-color: black;
-                        height: 4%;
+                        height: 2%;
                         margin: 0px;
-                        top: 97.9%;
+                        top: 98%;
                         position: absolute
                 }
 
@@ -188,7 +190,7 @@ width: 100%;
                         justify-content: space-evenly;
                         flex-wrap: wrap;
                         position: relative;
-                        top: 30%;
+                        top: 50%;
                         margin: 0;
                         padding: 0;
                         font-size: 1em;
@@ -201,7 +203,7 @@ width: 100%;
                         position: absolute;
                         color: #fff;
                         font-size: 1.5em;
-                        bottom: 35px;
+                        bottom: 33px;
 
                 }
 
