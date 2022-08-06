@@ -80,30 +80,41 @@ h6 {
 
 .item {
     width: 20%;
-    position: absolute;
+    position: relative;
 }
 
-.v1 {
+.vs1 {
     width: 38%;
 }
 
-.v2 {}
+.vs2 {
 
-.v3 {}
+}
 
-.v4 {}
+.vs3 {}
 
-.v5 {}
+.vs4 {}
 
-.v6 {}
+.vs5 {}
 
-.v7 {}
+.vs6 {}
 
-.v8 {}
+.vs7 {}
 
-.v9 {}
+.vs8 {}
 
-.v10 {}
+.vs9 {}
+
+.vs10 {}
+
+
+.slick-dots {
+    display: none !important;
+}
+
+.slick-dots li:only-child {
+    display: none;
+}
 
 
 }
