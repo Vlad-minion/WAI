@@ -17,17 +17,18 @@ menuBtn.addEventListener("click", function (evt) {
 });
 
 
-const anchors = document.querySelectorAll("a.scroll-to");
 
-for (let anchor of anchors) {
-  anchor.addEventListener("click", function (e) {
-    e.preventDefault();
 
-    const blockID = anchor.getAttribute("href");
 
-    document.querySelector(author_page).scrollIntoView({
-      behavior: "smooth",
-      block: "start",
+const smoothLinks = document.querySelectorAll('a[href^="#"]');
+for (let smoothLink of smoothLinks) {
+    smoothLink.addEventListener('click', function (e) {
+        e.preventDefault();
+        const id = smoothLink.getAttribute('href');
+
+        document.querySelector(id).scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
     });
-  });
-}
+};

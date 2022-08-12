@@ -38,6 +38,7 @@
 
     li{ 
         margin-right: 140px;
+        z-index: 9999;
     }
 
     .main_nav_logo {
