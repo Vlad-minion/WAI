@@ -1,0 +1,39 @@
+ body {
+    margin: 0;
+    padding: 0;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+ }
+
+ .logo-container {
+    min-height:100vh;
+    transform-style: inherit;
+    padding-top: 20%;
+
+ }
+
+ .logo-container::before {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    z-index:-1;
+    transform-origin: center;
+    min-height: 100vh;
+    background: url(/img/Main/Фон.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 1s;
+    
+    transform: translateZ(-1px) scale(2);
+ }
+
+ .main_logo, .main_logo2 {
+   margin-top: -100px;
+ }

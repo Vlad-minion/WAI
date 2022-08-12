@@ -156,6 +156,31 @@ width: 100%;
         .slick-slider img {
             width: 100%;
         }
+
+        .p1 {
+            color: #E8E8E8;
+                text-align: center;
+                width: 50%;
+                    position: relative;
+                    left: 26%;
+        }
+
+.p2 {
+    color: #E8E8E8;
+        text-align: center;
+        width: 70%;
+        position: relative;
+        left: 15%;
+}
+
+.p3{
+    color: #E8E8E8;
+        text-align: center;
+        width: 70%;
+        position: relative;
+        left: 15%;
+}
+
     
         .slick-list {
             overflow: hidden;

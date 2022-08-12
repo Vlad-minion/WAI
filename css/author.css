@@ -41,7 +41,7 @@ h6 {
     text-align: center;
         font-size: 3em;
         color: #FFEC3A;
-        top: 10%;
+        top: 5%;
         position: relative;
         font-family: "Usually-font";
         letter-spacing: 20px;
@@ -54,7 +54,7 @@ h6 {
 }
 
 .wrapper5 {
-        top: 17%;
+        top: 8%;
         position: relative;
         z-index: 2;
 }
@@ -88,7 +88,7 @@ h6 {
 }
 
 .vs1 {
-    bottom: 77%;
+    bottom: 108%;
         width: 36%;
         z-index: 1;
         left: 0%;
@@ -96,7 +96,7 @@ h6 {
 }
 
 .vs2 {
-bottom: 124%;
+bottom: 162%;
     width: 10%;
     left: 37%;
 }
@@ -104,18 +104,18 @@ bottom: 124%;
 .vs3 {
     
 width: 6%;
-    bottom: 96%;
+    bottom: 125%;
     left: 31%;
 }
 .vs4 {
-    bottom: 139%;
+    bottom: 180%;
         width: 5%;
         left: 25%;
     
 }
 
 .vs5 {
-    bottom: 82%;
+    bottom: 114%;
         width: 12%;
         left: 11%;
     }
